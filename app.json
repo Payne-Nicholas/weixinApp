@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/forLoop/forLoop",
+    "pages/listRender/listRender",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "9988",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ccc",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "微信",
+        "iconPath": "images/tabbar/tabbar1.png",
+        "selectedIconPath": "images/tabbar/selectTabbar1.png"
+      },
+      {
+        "pagePath": "pages/forLoop/forLoop",
+        "text": "通讯录",
+        "iconPath": "images/tabbar/tabbar2.png",
+        "selectedIconPath": "images/tabbar/selectTabbar2.png"
+      },
+      {
+        "pagePath": "pages/listRender/listRender",
+        "text": "列表渲染",
+        "iconPath": "images/tabbar/tabbar3.png",
+        "selectedIconPath": "images/tabbar/selectTabbar3.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我",
+        "iconPath": "images/tabbar/tabbar4.png",
+        "selectedIconPath": "images/tabbar/selectTabbar4.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

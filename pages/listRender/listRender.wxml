@@ -1,0 +1,21 @@
+<!--pages/listRender/listRender.wxml-->
+<view wx:for="{{num}}" wx:for-item="row" class="row">
+  <view wx:for="{{num}}" wx:for-item="col" wx:if="{{col <= row}}" class="col">
+    {{col}}*{{row}} = {{col*row}}
+  </view>
+</view>
+
+<view wx:for="{{books}}">
+  {{books[index]}}
+</view>
+
+<view wx:for="{{books}}" wx:for-item='book' wx:for-index="i">
+  {{book}}/{{i}}
+</view>
+
+<block wx:for="{{books}}" wx:for-item='book' wx:for-index="i">
+  <view>{{book}}</view>
+  <view>{{i}}</view>
+</block>
+
+

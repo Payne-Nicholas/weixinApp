@@ -1,0 +1,15 @@
+<!--pages/course/course.wxml-->
+<!-- wx:key设置唯一属性值，可以保留switch的状态 -->
+<!-- <view wx:for="{{lines}}" wx:key="id">
+  <switch>{{item.name}}</switch>
+</view> -->
+
+
+<!-- 如果key的值要使用item本身要使用特殊字符*this代替item -->
+<view wx:for="{{list}}" wx:key="*this">
+  <switch>{{item}}</switch>
+</view>
+
+
+
+<button bindtap="tapEvent">更新</button>

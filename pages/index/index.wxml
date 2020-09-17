@@ -1,0 +1,30 @@
+<view>hello {{username}}</view>
+<view>{{'hello ' + person.name}}</view>
+
+
+<view wx:if="{{person.age >= 18}}"> 
+  可以进入网吧
+</view>
+
+<view wx:else>
+  不可以进入网吧
+</view>
+
+<view>{{person.age + 10}}</view>
+
+<view wx:for="{{books}}">
+  {{item}}
+</view>
+
+<block wx:if="{{weather == '晴天'}}">
+  <view> 溜达 </view>
+  <view> 吃 </view>
+</block>
+<block wx:elif="{{weather == '阴天'}}">
+  <view> 家里呆着吧 </view>
+  <view> 外边地都是水 </view>
+</block>
+<block wx:else>
+  <view> 好好学习 </view>
+  <view> 多赚点钱 </view>
+</block>
