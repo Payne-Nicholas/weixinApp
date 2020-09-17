@@ -1,0 +1,22 @@
+<template name='message'>
+  <view class="message-group">
+    <text class="content">
+      let`s write a song
+    </text>
+    <text class="friend">
+      Jay Zhou
+    </text>
+  </view>
+</template>
+
+
+<template name='message2'>
+  <view class="message-group">
+    <text class="content">
+      {{content}}
+    </text>
+    <text class="friend">
+      {{friend}}
+    </text>
+  </view>
+</template>

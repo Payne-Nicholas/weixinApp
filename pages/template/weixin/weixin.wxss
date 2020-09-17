@@ -1,0 +1,3 @@
+/* pages/template/weixin/weixin.wxss */
+
+@import '../../../templates/message/message.wxss'

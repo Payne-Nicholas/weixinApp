@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/template/qq/qq",
+    "pages/template/weixin/weixin",
     "pages/forLoop/forLoop",
     "pages/listRender/listRender",
     "pages/index/index",
     "pages/logs/logs"
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -36,8 +39,14 @@
         "selectedIconPath": "images/tabbar/selectTabbar3.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "我",
+        "pagePath": "pages/template/qq/qq",
+        "text": "qq",
+        "iconPath": "images/tabbar/tabbar4.png",
+        "selectedIconPath": "images/tabbar/selectTabbar4.png"
+      },
+      {
+        "pagePath": "pages/template/weixin/weixin",
+        "text": "weixin",
         "iconPath": "images/tabbar/tabbar4.png",
         "selectedIconPath": "images/tabbar/selectTabbar4.png"
       }

@@ -1,0 +1,5 @@
+<!--pages/template/weixin/weixin.wxml-->
+<import src="../../../templates/message/message.wxml"></import>
+
+
+<template is='message2' wx:for="{{messages}}" data="{{...item}}" wx:key='key'></template>
